@@ -1,0 +1,6 @@
+[2024-11-17 18:07:05.731] Starting Git Graph ...
+[2024-11-17 18:07:05.796] Using /usr/bin/git (version: 2.39.5 (Apple Git-154))
+[2024-11-17 18:07:05.799] Started Git Graph - Ready to use!
+[2024-11-17 18:07:05.800] Searching workspace for new repos ...
+[2024-11-17 18:07:05.800] Completed searching workspace for new repos
+[2024-11-17 18:07:05.801] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"

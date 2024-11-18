@@ -1,0 +1,67 @@
+2024-11-17 18:07:06.382 [info] Using the Electron fetcher.
+2024-11-17 18:07:06.382 [info] Initializing Git extension service.
+2024-11-17 18:07:06.382 [info] Successfully activated the vscode.git extension.
+2024-11-17 18:07:06.382 [info] Enablement state of the vscode.git extension: true.
+2024-11-17 18:07:06.382 [info] Successfully registered Git commit message provider.
+2024-11-17 18:07:06.982 [info] copilot token chat_enabled: undefined, sku: 
+2024-11-17 18:07:06.982 [error] Canceled: Canceled
+    at Dc (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+    at Array.forEach (<anonymous>)
+    at py.dispose (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+    at z_.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+    at EC.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+    at Zi (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+    at MessagePortMain.<anonymous> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:488:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949): Failed to get copilot token
+2024-11-17 18:07:06.982 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2024-11-17 18:07:06.983 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 18:07:06.983 [error] Canceled: Canceled
+    at Dc (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+    at Array.forEach (<anonymous>)
+    at py.dispose (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+    at z_.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+    at EC.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+    at Zi (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+    at MessagePortMain.<anonymous> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:488:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-11-17 18:07:06.983 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 18:07:06.983 [error] Canceled: Canceled
+    at Dc (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+    at Array.forEach (<anonymous>)
+    at py.dispose (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+    at z_.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+    at EC.terminate (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+    at Zi (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+    at MessagePortMain.<anonymous> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:488:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-11-17 18:07:06.983 [info] activationBlocker from 'languageModelAccess' took for 505ms
+2024-11-17 18:07:06.984 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2024-11-17 18:07:06.984 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 18:07:06.984 [error] Canceled: Canceled
+    at new tT (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+    at py.U (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+    at tw.getAccounts (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:2790)
+    at Object.getAccounts (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:36166)
+    at ixe (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:953)
+    at g9 (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:1338)
+    at r (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1108:4735)
+    at H0.getOrCreate (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:599)
+    at jk.getAnyGitHubSession (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1108:4840)
+    at jk.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37804)
+    at oE._inspectContext (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:6173)
+    at C1.value (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:4757)
+    at jt._deliver (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:271:890)
+    at jt._deliverQueue (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:271:979)
+    at jt.fire (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:271:1313)
+    at jk._handleAuthChangeEvent (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:39205)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

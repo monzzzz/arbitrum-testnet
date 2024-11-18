@@ -1,0 +1,46 @@
+LSP logger: waiting for ready signal...
+LSP logger: started
+LSP logger: starting with non-nil server
+LSP logger: waiting for ready signal...
+LSP logger: started
+2024-11-16T20:24:36-08:00 INF - Error reporting initialized
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF server.Start - Starting up...
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF initializeHandler - RECEIVING params={"capabilities":{"textDocument":{"callHierarchy":{"dynamicRegistration":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dynamicRegistration":true,"isPreferredSupport":true},"colorProvider":{"dynamicRegistration":true},"completion":{"completionItem":{"documentationFormat":["markdown","plaintext"],"snippetSupport":true},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"contextSupport":true},"declaration":{"linkSupport":true},"definition":{"linkSupport":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"documentSymbol":{"hierarchicalDocumentSymbolSupport":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"foldingRange":{"dynamicRegistration":true,"lineFoldingOnly":true,"rangeLimit":5000},"formatting":{"dynamicRegistration":true},"hover":{"contentFormat":["markdown","plaintext"]},"implementation":{"dynamicRegistration":true,"linkSupport":true},"inlineValue":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true},"signatureHelp":{"signatureInformation":{"parameterInformation":{"labelOffsetSupport":true}}},"synchronization":{"didSave":true,"willSave":true,"willSaveWaitUntil":true},"typeDefinition":{"linkSupport":true}},"window":{"workDoneProgress":true},"workspace":{"applyEdit":true,"codeLens":{"refreshSupport":true},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"inlineValue":{"refreshSupport":true},"symbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"]},"workspaceFolders":true}},"clientInfo":{"name":"Visual Studio Code","version":"1.95.2"},"initializationOptions":{"activateSnykCodeQuality":"true","activateSnykCodeSecurity":"true","activateSnykIac":"true","activateSnykOpenSource":"true","authenticationMethod":"oauth","automaticAuthentication":"false","deviceId":"a6006b3f-851d-416a-a3bb-9b37b954049d","enableDeltaFindings":"false","enableSnykOSSQuickFixCodeActions":"false","enableTrustedFoldersFeature":"true","endpoint":"https://api.snyk.io","filterSeverity":{"critical":true,"high":true,"low":true,"medium":true},"insecure":"false","integrationName":"VS_CODE","integrationVersion":"2.19.2","manageBinariesAutomatically":"true","requiredProtocolVersion":"16","scanningMode":"auto","sendErrorReports":"true"},"processId":50458,"trace":"off"}
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - snyk-ls: 20241112.105448 (/Users/monz/Library/Application Support/snyk-ls/snyk-ls_darwin_arm64)
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - CLI Path: /Users/monz/Library/Application Support/snyk-ls/snyk-macos-arm64
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - CLI Installed? true
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - platform: darwin/arm64
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - https_proxy: 
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - http_proxy: 
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - no_proxy: 
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - IDE: Visual Studio Code/1.95.2
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF - snyk-plugin: VS_CODE/2.19.2
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF initializedHandler - triggering workspace scan after successful initialization
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF WorkspaceDidChangeConfiguration - RECEIVED params={"settings":{"filterSeverity":{}}}
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF WorkspaceDidChangeConfiguration - DONE params={"settings":{"filterSeverity":{}}}
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF IsAuthenticated - no credentials found
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 WRN featureFlagStatus.Execute - not authenticated, cannot retrieve feature flags
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 INF IsAuthenticated - no credentials found
+
+[Info  - 8:24:36 PM] 2024-11-16T20:24:36-08:00 WRN featureFlagStatus.Execute - not authenticated, cannot retrieve feature flags
+
+[Info  - 8:24:37 PM] 2024-11-16T20:24:37-08:00 INF WorkspaceDidChangeConfiguration - RECEIVED params={"settings":{"filterSeverity":{}}}
+
+[Info  - 8:24:37 PM] 2024-11-16T20:24:37-08:00 INF WorkspaceDidChangeConfiguration - DONE params={"settings":{"filterSeverity":{}}}
+

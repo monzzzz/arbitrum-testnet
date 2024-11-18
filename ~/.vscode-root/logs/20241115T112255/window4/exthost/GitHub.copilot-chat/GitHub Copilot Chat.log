@@ -1,0 +1,57 @@
+2024-11-17 14:41:36.131 [info] Using the Electron fetcher.
+2024-11-17 14:41:36.131 [info] Initializing Git extension service.
+2024-11-17 14:41:36.131 [info] Successfully activated the vscode.git extension.
+2024-11-17 14:41:36.131 [info] Enablement state of the vscode.git extension: true.
+2024-11-17 14:41:36.131 [info] Successfully registered Git commit message provider.
+2024-11-17 14:41:36.151 [warning] GitHub login failed
+2024-11-17 14:41:36.152 [info] copilot token chat_enabled: undefined, sku: 
+2024-11-17 14:41:36.152 [error] Error: GitHubLoginFailed
+    at iE._authShowWarnings (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3586)
+    at iE.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at EN.waitForChatEnabled (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:3181)
+    at EN.run (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:2900)
+    at eE.askToUpgradeAuthPermissions (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:2338): Failed to get copilot token
+2024-11-17 14:41:36.152 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-11-17 14:41:36.152 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 14:41:36.152 [error] Error: GitHubLoginFailed
+    at iE._authShowWarnings (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3586)
+    at iE.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)
+    at fE._registerLanguageModels (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:1810)
+    at async Promise.all (index 0)
+    at async Promise.allSettled (index 0)
+    at Ev.waitForActivationBlockers (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:25616)
+    at /Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:4068
+    at qPt (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:3881)
+    at B0.n (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+    at B0.m (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+    at B0.l (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-11-17 14:41:36.152 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 14:41:36.152 [error] Error: GitHubLoginFailed
+    at iE._authShowWarnings (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3586)
+    at iE.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2060)
+    at fE._registerEmbeddings (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2559)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at Ev.waitForActivationBlockers (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:25616)
+    at /Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:4068
+    at qPt (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:3881)
+    at B0.n (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+    at B0.m (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+    at B0.l (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-11-17 14:41:36.152 [info] activationBlocker from 'languageModelAccess' took for 19ms
+2024-11-17 14:41:36.155 [warning] GitHub login failed
+2024-11-17 14:41:36.156 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-11-17 14:41:36.156 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-17 14:41:36.156 [error] Error: GitHubLoginFailed
+    at iE._authShowWarnings (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3586)
+    at iE.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/Users/monz/.vscode/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2060)

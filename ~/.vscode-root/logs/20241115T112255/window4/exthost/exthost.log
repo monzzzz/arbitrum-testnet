@@ -1,0 +1,56 @@
+2024-11-17 14:41:34.572 [info] Extension host with pid 29678 started
+2024-11-17 14:41:34.720 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-17 14:41:34.723 [info] ExtensionService#_doActivateExtension DivyanshuAgrawal.competitive-programming-helper, startup: true, activationEvent: '*'
+2024-11-17 14:41:34.736 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-11-17 14:41:34.780 [info] ExtensionService#_doActivateExtension snyk-security.snyk-vulnerability-scanner, startup: true, activationEvent: '*'
+2024-11-17 14:41:35.335 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-17 14:41:35.366 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-17 14:41:35.450 [info] Eager extensions activated
+2024-11-17 14:41:35.452 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.454 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.462 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.508 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.549 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.732 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.811 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:35.893 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-17 14:41:36.003 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-17 14:41:36.557 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-17 14:41:36.577 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new tT (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+    at py.U (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+    at L0.resolveProxy (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:53937)
+    at Object.resolveProxy (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1188)
+    at useProxySettings (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:179:16)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:13
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:483:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-17 14:41:36.577 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new tT (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+    at py.U (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+    at L0.resolveProxy (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:53937)
+    at Object.resolveProxy (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1188)
+    at useProxySettings (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:179:16)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:13
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/proxy-agent/out/index.js:483:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-17 14:41:37.045 [error] Canceled: Canceled
+    at new tT (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+    at py.U (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+    at Y0.g (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+    at Y0.executeCommand (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+    at r.registerCommand.description (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+    at Y0.h (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+    at Y0.g (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+    at Y0.executeCommand (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+    at Object.executeCommand (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+    at /Users/monz/.vscode/extensions/github.copilot-1.245.0/extension/src/auth.ts:126:18
+    at new Promise (<anonymous>)
+    at handleAuthenticationError (/Users/monz/.vscode/extensions/github.copilot-1.245.0/extension/src/auth.ts:110:12)
+    at /Users/monz/.vscode/extensions/github.copilot-1.245.0/extension/src/extension.ts:183:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-11-17 14:41:37.045 [error] Error: ENOENT: no such file or directory, open '/Users/monz/Code/arbitrum_test/~/.vscode-root/User/globalStorage/vscodevim.vim/.registers'
+2024-11-17 14:41:37.045 [info] Extension host with pid 29678 exiting with code 0
