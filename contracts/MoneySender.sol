@@ -1,29 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.0;
 
 contract MoneySender {
-    address public owner;
-
-    constructor() {
-        owner = msg.sender;
-    }
-
-    // Function to send money to a specified address
+    // Function to send Ether dynamically to any recipient
     function sendMoney(address payable recipient) external payable {
-        require(msg.sender == owner, "Only the owner can send money");
-        require(msg.value > 0, "Must send a positive amount");
-
-        (bool success, ) = recipient.call{value: msg.value}("");
-        require(success, "Transfer failed");
+        require(msg.value > 0, "You need to send some ETH");
+        recipient.transfer(msg.value); // Transfer the Ether to the recipient
     }
-
-    // Function to withdraw all Ether to the owner
-    function withdrawAll() external {
-        require(msg.sender == owner, "Only the owner can withdraw");
-        (bool success, ) = payable(owner).call{value: address(this).balance}("");
-        require(success, "Withdrawal failed");
-    }
-
-    // Fallback to accept Ether
-    receive() external payable {}
 }

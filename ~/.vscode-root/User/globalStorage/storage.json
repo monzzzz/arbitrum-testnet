@@ -24,6 +24,9 @@
             },
             {
                 "backupFolder": "1731895624592"
+            },
+            {
+                "backupFolder": "1731965214658"
             }
         ]
     },
@@ -37,7 +40,8 @@
             "1731698587708": "__default__profile__",
             "1731817474827": "__default__profile__",
             "1731883293887": "__default__profile__",
-            "1731895624592": "__default__profile__"
+            "1731895624592": "__default__profile__",
+            "1731965214658": "__default__profile__"
         }
     },
     "lastKnownMenubarData": {
@@ -1674,14 +1678,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/Users/monz/Code/arbitrum_test/~/.vscode-root/Backups/1731817474827",
+            "backupPath": "/Users/monz/Code/arbitrum_test/~/.vscode-root/Backups/1731965214658",
             "uiState": {
-                "mode": 3,
-                "display": 1,
-                "width": 1024,
-                "height": 768,
+                "mode": 1,
                 "x": 244,
-                "y": 107
+                "y": 107,
+                "width": 1024,
+                "height": 768
             }
         },
         "openedWindows": []
