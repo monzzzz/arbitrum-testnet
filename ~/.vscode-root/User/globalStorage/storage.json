@@ -27,6 +27,9 @@
             },
             {
                 "backupFolder": "1731965214658"
+            },
+            {
+                "backupFolder": "1731989851914"
             }
         ]
     },
@@ -41,7 +44,8 @@
             "1731817474827": "__default__profile__",
             "1731883293887": "__default__profile__",
             "1731895624592": "__default__profile__",
-            "1731965214658": "__default__profile__"
+            "1731965214658": "__default__profile__",
+            "1731989851914": "__default__profile__"
         }
     },
     "lastKnownMenubarData": {
@@ -1678,7 +1682,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/Users/monz/Code/arbitrum_test/~/.vscode-root/Backups/1731965214658",
+            "backupPath": "/Users/monz/Code/arbitrum_test/~/.vscode-root/Backups/1731989851914",
             "uiState": {
                 "mode": 1,
                 "x": 244,

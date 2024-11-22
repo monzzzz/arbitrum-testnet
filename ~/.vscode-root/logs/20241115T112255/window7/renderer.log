@@ -1,0 +1,22 @@
+2024-11-18 20:17:31.421 [info] Started local extension host with pid 92621.
+2024-11-18 20:17:31.570 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-11-18 20:17:31.591 [warning] [NomicFoundation.hardhat-solidity]: Cannot register 'solidity.formatter'. This property is already registered.
+2024-11-18 20:17:31.591 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-18 20:17:31.653 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.653 [info] Settings Sync: Authentication providers updated []
+2024-11-18 20:17:31.767 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.767 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-18 20:17:31.767 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.767 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-18 20:17:31.767 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-18 20:17:31.768 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.768 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-18 20:17:31.768 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.768 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-18 20:17:31.768 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.770 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-18 20:17:31.770 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-18 20:17:31.770 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-18 20:17:31.770 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
