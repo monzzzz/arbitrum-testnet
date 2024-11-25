@@ -7,7 +7,7 @@ async function main() {
     console.log("Deploying contract with the account:", deployer.address);
 
     // Deploy the MoneySender contract
-    const Bet = await ethers.getContractFactory("Betting");
+    const Bet = await ethers.getContractFactory("AddressList");
     const bet = await Bet.deploy();
     // await moneySender.deployed();
     const address = await bet.getAddress();
