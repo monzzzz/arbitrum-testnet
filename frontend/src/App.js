@@ -52,6 +52,17 @@ function App() {
     initializeEthers();
   }, []);
 
+  const lockContract = async () => {
+    try {
+      const tx = await contract.toggleIsContractLocked();
+      await tx.wait();
+      setStatus("Contract locked successfully!");
+    } catch (error) {
+      console.error(error);
+      setStatus("Error locking contract. Check the console for details.");
+    }
+  }
+
   const extractBets = (proxyResult) => {
     const betList = [];
     for (let i = 0; i < proxyResult.length; i++) {
@@ -143,6 +154,8 @@ function App() {
       setStatus("Error fetching winnings. Check the console for details.");
     }
   };
+
+  
   console.log(betList)
   return (
     <div style={{ padding: "20px" }}>
@@ -233,6 +246,8 @@ function App() {
       <button onClick={withdrawWinnings}>Withdraw</button>
       <button onClick={checkWinnings}>Check Winnings</button>
       {winnings > 0 && <p>Your Winnings: {winnings} ETH</p>}
+
+      <button onClick={() => lockContract()}>Lock Contract</button>
     </div>
   );
 }

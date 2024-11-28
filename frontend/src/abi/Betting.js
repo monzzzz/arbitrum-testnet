@@ -123,6 +123,19 @@ export const Betting = [
   },
   {
     "inputs": [],
+    "name": "isContractLocked",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "owner",
     "outputs": [
       {
@@ -169,6 +182,13 @@ export const Betting = [
       }
     ],
     "name": "submitResult",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "toggleIsContractLocked",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -240,4 +260,4 @@ export const Betting = [
   }
 ]
 
-export const Contract_Address = "0x2E5CE713dFc9528894888Cc46Fdc127D6dc0fC52"
+export const Contract_Address = "0xceb1538B5316E6e8370A20A8B6a04c156DB40C57"

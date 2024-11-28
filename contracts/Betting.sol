@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+
 contract Betting {
     struct Bet {
         address bettor;
@@ -14,8 +15,9 @@ contract Betting {
     uint256 public totalBetsTeamA;
     uint256 public totalBetsTeamB;
     uint8 public winningTeam;
+    bool public isContractLocked = false;
     bool public resultSubmitted;
-
+    
     event BetPlaced(address indexed bettor, uint256 amount, uint8 team);
     event ResultSubmitted(uint8 winningTeam);
     event WinningsDistributed(uint256 totalWinnings);
@@ -31,6 +33,7 @@ contract Betting {
     }
 
     function placeBet(uint8 team) external payable {
+        require(!isContractLocked, "Contract is locked");
         require(msg.value > 0, "Bet amount must be greater than zero");
         require(team == 0 || team == 1, "Invalid team selection");
         require(!resultSubmitted, "Betting is closed, result already submitted");
@@ -48,6 +51,10 @@ contract Betting {
         }
 
         emit BetPlaced(msg.sender, msg.value, team);
+    }
+
+    function toggleIsContractLocked() external onlyOwner {
+        isContractLocked = !isContractLocked;
     }
 
     function submitResult(uint8 _winningTeam) external onlyOwner {
